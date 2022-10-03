@@ -44,6 +44,25 @@ header{
     cursor: pointer;
 }
 
+article { padding: 20px; }
+
+article h3 {
+
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 14px;
+
+}
+
+/* select the  p tag inside the article tag on the page*/
+/* a selector followed by a space and then ANOTHER selector gets a refernce to the partner element and then the child element or element inside of it*/
+article p {
+    width: 80%;
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0 auto;
+}
 /* footer reules here*/
 footer{
     color: white;
